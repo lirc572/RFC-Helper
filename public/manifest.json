@@ -1,0 +1,25 @@
+{
+    "name": "RFC-Helper",
+    "description": "Make RFC documents easier to read!",
+    "version": "0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.rfc-editor.org/rfc/*.html"
+            ],
+            "run_at": "document_end",
+            "js": [],
+            "css": [],
+            "media": []
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "resources": []
+        }
+    ]
+}
