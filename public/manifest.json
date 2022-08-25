@@ -6,7 +6,7 @@
     "content_scripts": [
         {
             "matches": [
-                "https://www.rfc-editor.org/rfc/*.html"
+                "https://www.rfc-editor.org/rfc/*"
             ],
             "run_at": "document_end",
             "js": [],
